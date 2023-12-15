@@ -1,0 +1,22 @@
+{
+  "name": "@jitsi/electron-sdk-lite",
+  "version": "0.0.1",
+  "description": "Utilities to add screensharing to jitsi meet in electron",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "@types/node-fetch": "^2.6.9",
+    "@types/electron": "^1.6.10"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false,
+    "child_process": false
+  }
+}

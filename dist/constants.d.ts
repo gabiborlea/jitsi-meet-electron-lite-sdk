@@ -1,0 +1,1 @@
+export declare const SCREEN_SHARE_GET_SOURCES = "SCREEN_SHARE_GET_SOURCES";
